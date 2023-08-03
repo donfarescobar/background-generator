@@ -4,8 +4,18 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+
+    "build": "browserfy script.js > bundle.js&& live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
+
 }
